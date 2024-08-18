@@ -3,7 +3,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  color: #5a5a5a;
+  color: #ba9cbb;
 }
 
 
@@ -50,7 +50,7 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 409px;
-  background-color: #060607;
+  background-color: #cab7e4;
 }
 .carousel-inner > .item > img {
   position: absolute;

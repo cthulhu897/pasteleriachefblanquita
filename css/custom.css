@@ -1,20 +1,20 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 a {
-  color: #44B8FF;
+  color: #FF69B4; /* Color rosa vibrante para enlaces */
 }
 
 a.nostyle {
  text-decoration: none;
  color: inherit;
  cursor: auto;
- }
+}
 
 .masthead {
-background-color: #000000;
+background-color: #790e79; /* Color dorado para el encabezado */
 -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
-border-bottom: 1px solid #989da4;
+box-shadow: inset 0 -2px 5px rgba(255, 134, 225, 0.781);
+border-bottom: 1px solid #FFB6C1; /* Color rosa claro para el borde */
 line-height: 99px;
 }
 
@@ -32,25 +32,25 @@ right: 107px;
 
 .powered p {
 float: right;
-color: #989da4;
+color: #FFB6C1; /* Color rosa claro para el texto */
 margin: 0;
 }
 
 .powered a {
-color: #989da4
+color: #FFB6C1; /* Color rosa claro para enlaces */
 }
 
 .powered a:hover {
-text decoration: underline;
+text-decoration: underline;
 }
 
 .powered a:visited {
-color: #989da4;
+color: #FFB6C1; /* Color rosa claro para enlaces visitados */
 }
 
 .callout {
 background: url('images/callout-bg-2.jpg') top center;
-background-color: #9ea3a9;
+background-color: #FF69B4; /* Color rosa vibrante para el fondo */
 text-align: center;
 padding: 25px 0 75px 0;
 color: #fff;
@@ -78,7 +78,7 @@ margin: 0;
 
 .carousel-caption h3 {
 font-weight:200;
-color: #ea2a2e;
+color: #FF69B4; /* Color rosa vibrante para subtítulos */
 font-size: 22px;
 margin: 0;
 }
@@ -88,7 +88,7 @@ margin: 13px 0;
 }
 
 .carousel-caption a {
-color: #44B8FF;
+color: #FF69B4; /* Color rosa vibrante para enlaces */
 }
 
 .carousel-caption a:hover {
@@ -96,7 +96,7 @@ text-decoration: underline;
 }
 
 .carousel-caption a:visited {
-color: #44B8FF;
+color: #FF69B4; /* Color rosa vibrante para enlaces visitados */
 }
 
 .callout a {
@@ -115,13 +115,13 @@ font-weight: bold;
 
 .marketing {
 background: url('images/content-bg.jpg') top center repeat-x;
-background-color: #000;
+background-color: #24124E; /* Color dorado para el fondo */
 padding: 40px 30px 75px 20px;
 color: #fff;
 margin-top: -50px;
 -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 20px 0px rgba(184, 6, 255, 0.75);
 }
 
 .featurette h2 {
@@ -132,7 +132,7 @@ margin: 0 0 5px 0;
 
 .featurette h3 {
 font-weight:200;
-color: #ea2a2e;
+color: #FF69B4; /* Color rosa vibrante para subtítulos */
 font-size: 22px;
 margin: 0 0 10px 0;
 }
@@ -164,7 +164,7 @@ text-align: right;
 }
 
 .sidebar a {
-color: #ccc;
+color: #FF69B4; /* Color rosa vibrante para enlaces */
 }
 
 .sidebar a:hover {
@@ -172,7 +172,7 @@ text-decoration: underline;
 }
 
 .sidebar a:visited {
-color: #ccc;
+color: #FF69B4; /* Color rosa vibrante para enlaces visitados */
 }
 
 .sidebar ul {
@@ -192,14 +192,14 @@ margin-top: 30px;
 }
 
 .footer {
-background-color: #2e3136;
-border-top: 1px solid #989da4;
-color: #cccccc;
+background-color: #370247; /* Color dorado para el pie de página */
+border-top: 1px solid #FFB6C1; /* Color rosa claro para el borde */
+color: #fff;
 padding: 40px 0;
 }
 
 .footer a {
-color: #ccc;
+color: #FF69B4; /* Color rosa vibrante para enlaces */
 }
 
 .footer a:hover {
@@ -207,7 +207,7 @@ text-decoration: underline;
 }
 
 .footer a:visited {
-color: #ccc;
+color: #FF69B4; /* Color rosa vibrante para enlaces visitados */
 }
 
 .footer ul {
@@ -243,18 +243,17 @@ padding-top: 40px;
 /* RESPONSIVE STYLES
 -------------------------------------------------- */
 
-
 @media (max-width: 993px) {
   .carousel {
     height: 633px;
-    background: #060607;
+    background: #FF69B4; /* Color rosa vibrante para el fondo */
   }
 
   .carousel .item {
     height: 633px;
-    background-color: #060607;
+    background-color: #FF69B4; /* Color rosa vibrante para el fondo */
   }
-
+}
 
 @media (max-width: 767px) {
   .carousel-caption p {
@@ -291,12 +290,12 @@ padding-top: 40px;
 
   .carousel {
     height: 703px;
-    background: #060607;
+    background: #FF69B4; /* Color rosa vibrante para el fondo */
   }
 
   .carousel .item {
     height: 703px;
-    background-color: #060607;
+    background-color: #FF69B4; /* Color rosa vibrante para el fondo */
   }
 
   .carousel-caption .col-md-8, .carousel-caption .col-md-4 {
